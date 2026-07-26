@@ -33,7 +33,8 @@
 h1 {
     font-family: "CurlyShirley", cursive;
     color: #ff1493;
-    font-size: 150px;
+    font-size: 80px;
+    animation: aparecer 2s;
 }
 
 
@@ -41,91 +42,86 @@ h1 {
 h2 {
     font-family: "PrettyGirls", cursive;
     color: #ff1493;
-    font-size: 110px;
+    font-size: 60px;
 }
 
 
-/* Fundo e textos */
+/* Fundo e texto */
 body {
     background-color: #ffe6f2;
-    font-size: 35px;
+    font-size: 18px;
 }
 
 
 /* Bonequinhos */
 .hello {
     font-family: "HelloKitty";
-    font-size: 220px;
+    font-size: 100px;
     vertical-align: middle;
-}
-
-
-/* Títulos dos cards */
-.card-title {
-    font-size: 65px;
-}
-
-
-/* Texto dos cards */
-.card-text {
-    font-size: 35px;
-}
-
-
-/* Imagens */
-img {
-    border-radius: 35px;
 }
 
 
 /* Cards */
 .card {
-    border-radius: 35px;
-    padding: 30px;
-}
-
-
-/* Botão */
-.btn-primary {
-    background-color: #ff1493;
-    border-color: #ff1493;
-    font-size: 35px;
-    padding: 20px 50px;
-}
-
-
-/* Quando passa o mouse */
-.btn-primary:hover {
-    background-color: #ff69b4;
-    border-color: #ff69b4;
-}
-
-
-/* Rodapé */
-footer {
-    font-size: 30px;
-}
-/* Sombras e bordas dos cards */
-.card {
+    border-radius: 25px;
     border: 2px solid #ffb6d9;
+    padding: 20px;
     box-shadow: 0px 8px 15px rgba(255, 20, 147, 0.2);
     transition: 0.3s;
 }
 
 
-/* Efeito ao passar o mouse nos cards */
+/* Hover dos cards */
 .card:hover {
     transform: translateY(-10px);
     box-shadow: 0px 15px 25px rgba(255, 20, 147, 0.4);
 }
 
 
-/* Animação do título */
-h1 {
-    animation: aparecer 2s;
+/* Título dos cards */
+.card-title {
+    font-size: 35px;
 }
 
 
+/* Texto dos cards */
+.card-text {
+    font-size: 18px;
+}
+
+
+/* Imagens arredondadas */
+img {
+    border-radius: 30px;
+}
+
+
+/* Botão personalizado */
+.btn-primary {
+    background-color: #ff1493;
+    border-color: #ff1493;
+    border-radius: 30px;
+    padding: 15px 35px;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+
+/* Hover do botão */
+.btn-primary:hover {
+    background-color: #ff69b4;
+    border-color: #ff69b4;
+    transform: scale(1.1);
+}
+
+
+/* Rodapé */
+footer {
+    font-size: 18px;
+}
+
+
+/* Animação */
 @keyframes aparecer {
     from {
         opacity: 0;
