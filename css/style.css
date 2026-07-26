@@ -33,7 +33,7 @@
 h1 {
     font-family: "CurlyShirley", cursive;
     color: #ff1493;
-    font-size: 80px;
+    font-size: 110px;
 }
 
 
@@ -41,46 +41,67 @@ h1 {
 h2 {
     font-family: "PrettyGirls", cursive;
     color: #ff1493;
-    font-size: 60px;
+    font-size: 85px;
 }
 
 
 /* Fundo e texto normal */
 body {
     background-color: #ffe6f2;
-    font-size: 20px;
+    font-size: 28px;
 }
 
 
-/* Bonequinho Hello Kitty */
+/* Bonequinhos das fontes */
 .hello {
     font-family: "HelloKitty";
-    font-size: 100px;
+    font-size: 150px;
     vertical-align: middle;
 }
 
 
 /* Títulos dos cards */
 .card-title {
-    font-size: 35px;
+    font-size: 50px;
 }
 
 
-/* Textos dos cards */
+/* Texto dos cards */
 .card-text {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 
-/* Botão personalizado */
+/* Imagens arredondadas */
+img {
+    border-radius: 25px;
+}
+
+
+/* Cards */
+.card {
+    border-radius: 25px;
+    padding: 20px;
+}
+
+
+/* Botão */
 .btn-primary {
     background-color: #ff1493;
     border-color: #ff1493;
+    font-size: 25px;
+    padding: 15px 35px;
 }
 
 
-/* Efeito quando passa o mouse */
+/* Efeito hover no botão */
 .btn-primary:hover {
     background-color: #ff69b4;
     border-color: #ff69b4;
+}
+
+
+/* Rodapé */
+footer {
+    font-size: 22px;
 }
