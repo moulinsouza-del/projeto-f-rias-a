@@ -206,3 +206,15 @@ footer {
 .musicas {
     font-family: "JamonDelMar";
 }
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-md-4 {
+    display: flex;
+}
+
+.card {
+    width: 100%;
+}
