@@ -172,3 +172,8 @@ footer {
 .cabecalho {
     background-color: #800080 !important;
 }
+.logo {
+    font-family: "CurlyShirley", cursive;
+    font-size: 35px;
+    color: #ff1493 !important;
+}
