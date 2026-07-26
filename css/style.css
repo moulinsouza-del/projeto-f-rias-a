@@ -28,16 +28,22 @@
     src: url("../fontes/JDM.ttf");
 }
 
+
+/* Título principal */
 h1 {
-    font-family: "CurlyShirley";
+    font-family: "CurlyShirley", cursive;
     color: #ff1493;
 }
 
+
+/* Títulos das seções */
 h2 {
-    font-family: "PrettyGirls";
+    font-family: "PrettyGirls", cursive;
     color: #ff1493;
 }
 
+
+/* Fundo do site */
 body {
     background-color: #ffe6f2;
 }
