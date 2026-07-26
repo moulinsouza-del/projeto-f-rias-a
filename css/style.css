@@ -32,6 +32,20 @@
 }
 
 
+/* Cabeçalho */
+.cabecalho {
+    background-color: #800080 !important;
+}
+
+
+/* Logo Lica Bulim */
+.logo {
+    font-family: "CurlyShirley" !important;
+    font-size: 35px;
+    color: #ff1493 !important;
+}
+
+
 /* Título principal */
 h1 {
     font-family: "CurlyShirley", cursive;
@@ -59,7 +73,6 @@ body {
 }
 
 
-/* Parágrafos */
 p {
     font-family: "Quicksand", sans-serif;
     font-size: 22px;
@@ -107,13 +120,13 @@ p {
 }
 
 
-/* Imagens arredondadas */
+/* Imagens */
 img {
     border-radius: 30px;
 }
 
 
-/* Botão personalizado */
+/* Botão */
 .btn-primary {
     background-color: #ff1493;
     border-color: #ff1493;
@@ -144,7 +157,7 @@ img {
 
 /* Menu */
 .nav-link {
-    color: #c71585 !important;
+    color: #ffb6d9 !important;
 }
 
 
@@ -155,7 +168,7 @@ footer {
 }
 
 
-/* Animação */
+/* Animação do título */
 @keyframes aparecer {
 
     from {
@@ -168,12 +181,4 @@ footer {
         transform: translateY(0);
     }
 
-}
-.cabecalho {
-    background-color: #800080 !important;
-}
-.logo {
-    font-family: "CurlyShirley", cursive;
-    font-size: 35px;
-    color: #ff1493 !important;
 }
