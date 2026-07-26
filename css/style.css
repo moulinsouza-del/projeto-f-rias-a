@@ -239,3 +239,21 @@ p,
 section p {
     color: #71585f !important;
 }
+/* VOLTAR FONTE DO CABEÇALHO */
+
+h1 {
+    font-family: "CurlyShirley" !important;
+    color: #ff1493 !important;
+}
+
+h2 {
+    font-family: "PrettyGirls" !important;
+    color: #ff1493 !important;
+}
+
+
+/* HELLO KITTY NO TÍTULO */
+
+.hello {
+    font-family: "HelloKitty" !important;
+}
