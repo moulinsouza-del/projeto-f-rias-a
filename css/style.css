@@ -84,7 +84,7 @@ p {
 }
 
 
-/* Efeito hover nos cards */
+/* Hover dos cards */
 .card:hover {
     transform: translateY(-10px);
     box-shadow: 0px 15px 25px rgba(255, 20, 147, 0.4);
@@ -93,8 +93,9 @@ p {
 
 /* Títulos dos cards */
 .card-title {
-    font-size: 35px;
     font-family: "Nunito", sans-serif;
+    font-size: 35px;
+    color: #ff1493;
 }
 
 
@@ -117,6 +118,7 @@ img {
     border-color: #ff1493;
     border-radius: 30px;
     padding: 15px 35px;
+    font-family: "Nunito", sans-serif;
     font-size: 20px;
     transition: 0.3s;
 }
@@ -145,7 +147,7 @@ footer {
 }
 
 
-/* Animação do título */
+/* Animação */
 @keyframes aparecer {
 
     from {
