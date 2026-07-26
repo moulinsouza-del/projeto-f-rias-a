@@ -224,3 +224,18 @@ footer {
     }
 
 }
+/* COR DOS TEXTOS NORMAIS */
+body {
+    color: #71585f !important;
+}
+
+p,
+.card-text {
+    color: #71585f !important;
+}
+
+
+/* Texto dentro das seções */
+section p {
+    color: #71585f !important;
+}
