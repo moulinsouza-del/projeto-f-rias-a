@@ -63,6 +63,7 @@ body {
 p {
     font-family: "Quicksand", sans-serif;
     font-size: 22px;
+    color: #c71585;
 }
 
 
@@ -70,7 +71,6 @@ p {
 .hello {
     font-family: "HelloKitty";
     font-size: 100px;
-    vertical-align: middle;
 }
 
 
@@ -103,6 +103,7 @@ p {
 .card-text {
     font-family: "Quicksand", sans-serif;
     font-size: 20px;
+    color: #c71585;
 }
 
 
@@ -137,6 +138,13 @@ img {
 .form-control {
     font-family: "Quicksand", sans-serif;
     font-size: 20px;
+    color: #c71585;
+}
+
+
+/* Menu */
+.nav-link {
+    color: #c71585 !important;
 }
 
 
