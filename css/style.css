@@ -1,8 +1,12 @@
 @font-face {
     font-family: "CurlyShirley";
-    src: url("../fontes/Curly Shirley.ttf");
+    src: url("../fontes/Curly Shirley.ttf") format("truetype");
 }
 
+h1 {
+    font-family: "CurlyShirley", cursive !important;
+    color: #ff1493;
+}
 @font-face {
     font-family: "PrettyGirls";
     src: url("../fontes/Pretty Girls Script Demo.ttf");
