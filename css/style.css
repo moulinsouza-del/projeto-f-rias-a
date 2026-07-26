@@ -27,3 +27,11 @@
     font-family: "JamonDelMar";
     src: url("fontes/JDM.ttf");
 }
+h1 {
+    font-family: "CurlyShirley";
+    color: #ff1493;
+}
+h2 {
+    font-family: "PrettyGirls";
+    color: #ff1493;
+}
