@@ -1,1 +1,29 @@
+@font-face {
+    font-family: "CurlyShirley";
+    src: url("fontes/Curly Shirley.ttf");
+}
 
+@font-face {
+    font-family: "PrettyGirls";
+    src: url("fontes/Pretty Girls Script Demo.ttf");
+}
+
+@font-face {
+    font-family: "HelloKitty";
+    src: url("fontes/Hello Kitty.otf");
+}
+
+@font-face {
+    font-family: "ScaryMovie";
+    src: url("fontes/scarymoviegallery.otf");
+}
+
+@font-face {
+    font-family: "FairyTales";
+    src: url("fontes/Fairy Tales.ttf");
+}
+
+@font-face {
+    font-family: "JamonDelMar";
+    src: url("fontes/JDM.ttf");
+}
