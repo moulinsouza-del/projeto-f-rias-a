@@ -47,3 +47,7 @@ h2 {
 body {
     background-color: #ffe6f2;
 }
+.hello {
+    font-family: "HelloKitty";
+    font-size: 45px;
+}
