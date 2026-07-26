@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
 
 
 @font-face {
@@ -52,7 +52,7 @@ h2 {
 /* Textos normais */
 body {
     background-color: #ffe6f2;
-    font-family: "Nunito", sans-serif;
+    font-family: "Quicksand", sans-serif;
     font-size: 20px;
     color: #555;
     line-height: 1.6;
@@ -61,7 +61,7 @@ body {
 
 /* Parágrafos */
 p {
-    font-family: "Nunito", sans-serif;
+    font-family: "Quicksand", sans-serif;
     font-size: 22px;
 }
 
@@ -93,7 +93,7 @@ p {
 
 /* Títulos dos cards */
 .card-title {
-    font-family: "Nunito", sans-serif;
+    font-family: "Quicksand", sans-serif;
     font-size: 35px;
     color: #ff1493;
 }
@@ -101,7 +101,7 @@ p {
 
 /* Textos dos cards */
 .card-text {
-    font-family: "Nunito", sans-serif;
+    font-family: "Quicksand", sans-serif;
     font-size: 20px;
 }
 
@@ -118,7 +118,7 @@ img {
     border-color: #ff1493;
     border-radius: 30px;
     padding: 15px 35px;
-    font-family: "Nunito", sans-serif;
+    font-family: "Quicksand", sans-serif;
     font-size: 20px;
     transition: 0.3s;
 }
@@ -135,14 +135,14 @@ img {
 /* Formulário */
 .form-label,
 .form-control {
-    font-family: "Nunito", sans-serif;
+    font-family: "Quicksand", sans-serif;
     font-size: 20px;
 }
 
 
 /* Rodapé */
 footer {
-    font-family: "Nunito", sans-serif;
+    font-family: "Quicksand", sans-serif;
     font-size: 18px;
 }
 
