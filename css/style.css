@@ -221,3 +221,16 @@ h1 {
     }
 
 }
+/* Corrigir textos normais */
+body,
+p,
+.card-text {
+    color: #71585f !important;
+}
+
+
+/* Corrigir título Sobre E */
+#sobre h2 {
+    font-family: "PrettyGirls";
+    color: #ff1493;
+}
