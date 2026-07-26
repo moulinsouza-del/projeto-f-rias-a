@@ -1,37 +1,80 @@
 @font-face {
     font-family: "CurlyShirley";
-    src: url("fontes/Curly Shirley.ttf");
+    src: url("../fontes/Curly Shirley.ttf");
 }
 
 @font-face {
     font-family: "PrettyGirls";
-    src: url("fontes/Pretty Girls Script Demo.ttf");
+    src: url("../fontes/Pretty Girls Script Demo.ttf");
 }
 
 @font-face {
     font-family: "HelloKitty";
-    src: url("fontes/Hello Kitty.otf");
+    src: url("../fontes/Hello Kitty.otf");
 }
 
 @font-face {
     font-family: "ScaryMovie";
-    src: url("fontes/scarymoviegallery.otf");
+    src: url("../fontes/scarymoviegallery.otf");
 }
 
 @font-face {
     font-family: "FairyTales";
-    src: url("fontes/Fairy Tales.ttf");
+    src: url("../fontes/Fairy Tales.ttf");
 }
 
 @font-face {
     font-family: "JamonDelMar";
-    src: url("fontes/JDM.ttf");
+    src: url("../fontes/JDM.ttf");
 }
+
+
+/* Título principal */
 h1 {
     font-family: "CurlyShirley";
     color: #ff1493;
 }
+
+
+/* Títulos das seções */
 h2 {
     font-family: "PrettyGirls";
     color: #ff1493;
+}
+
+
+/* Fundo do site */
+body {
+    background-color: #ffe6f2;
+}
+
+
+/* Textos */
+p {
+    font-family: Arial, sans-serif;
+}
+
+
+/* Botões */
+.btn-primary {
+    background-color: #ff1493;
+    border-color: #ff1493;
+}
+
+.btn-primary:hover {
+    background-color: #d90075;
+    border-color: #d90075;
+}
+
+
+/* Cards */
+.card {
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+
+/* Imagens da galeria */
+.img-fluid {
+    border-radius: 20px;
 }
