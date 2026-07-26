@@ -143,9 +143,10 @@ p {
 
 
 .filmes {
-    font-family: "ScaryMovie" !important;
+    font-family: "ScaryMovie", fantasy !important;
+    font-weight: normal;
+    font-style: normal;
 }
-
 
 .musicas {
     font-family: "JamonDelMar" !important;
