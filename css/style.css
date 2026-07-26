@@ -218,3 +218,18 @@ footer {
 .card {
     width: 100%;
 }
+.icone-card {
+    text-align: center;
+    font-size: 80px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.filmes,
+.livros,
+.musicas {
+    line-height: 1;
+}
