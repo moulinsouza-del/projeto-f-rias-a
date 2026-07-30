@@ -383,3 +383,20 @@ footer {
 }
 
 }
+.navbar {
+    background: #8a2be2 !important;
+    padding: 5px 20px !important;
+    min-height: 50px;
+}
+
+.navbar-brand {
+    font-family: "CurlyShirley" !important;
+    font-size: 30px !important;
+    line-height: 1 !important;
+}
+
+.navbar-nav .nav-link {
+    font-size: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
