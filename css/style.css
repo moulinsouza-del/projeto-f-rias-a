@@ -64,8 +64,8 @@ body {
 
 .navbar-brand {
     color: white !important;
-    font-family: Arial, sans-serif;
-    font-size: 32px;
+    font-family: "CurlyShirley";
+    font-size: 55px;
 }
 
 
@@ -194,14 +194,12 @@ body {
    CARDS
 ========================= */
 
-
 .cards {
-
     display:flex;
     justify-content:center;
-    gap:40px;
+    gap:25px;
     flex-wrap:wrap;
-
+    margin-top:80px;
 }
 
 
