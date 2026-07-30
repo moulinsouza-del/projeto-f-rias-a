@@ -308,36 +308,54 @@ footer {
 @media(max-width:768px){
 
 /* =========================
-   GALERIA DE IMAGENS
+   GALERIA
 ========================= */
 
 .galeria {
 
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin-top: 50px;
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    margin-top:60px;
+    flex-wrap:wrap;
 
 }
 
 
-.foto {
+.imagem-card {
 
-    width: 250px;
-    height: 250px;
+    width:300px;
+    height:250px;
 
-    object-fit: cover;
+    background:white;
 
-    border-radius: 20px;
+    border-radius:30px;
 
-    transition: 0.4s;
+    padding:20px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+
+    transition:.4s;
 
 }
 
 
-.foto:hover {
+.imagem-card:hover {
 
-    transform: scale(1.1);
+    transform:translateY(-15px) scale(1.05);
+
+}
+
+
+
+.imagem-card img {
+
+    width:100%;
+    height:100%;
+
+    object-fit:cover;
+
+    border-radius:20px;
 
 }
 
