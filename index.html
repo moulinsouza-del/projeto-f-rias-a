@@ -29,30 +29,35 @@
 
         <div class="collapse navbar-collapse" id="menu">
 
-            <ul class="navbar-nav ms-auto">
+    <ul class="navbar-nav ms-auto">
 
-                <li class="nav-item">
-                    <a class="nav-link" href="#sobre">Sobre</a>
-                </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#sobre">Sobre</a>
+        </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="#favoritos">Favoritos</a>
-                </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#favoritos">Favoritos</a>
+        </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="#contato">Contato</a>
-                </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#contato">Contato</a>
+        </li>
 
-            </ul>
+        <li class="nav-item">
+            <button id="modoEscuro" class="btn btn-dark">
+                🌙
+            </button>
+        </li>
 
-        </div>
+    </ul>
 
-    </div>
-</nav>
+</div>
 
 
 <section class="hero">
-
+    
+<div id="relogio"></div>
+    
 <div class="titulo">
 
     <h1>Bem-vindo ao Site da Lica</h1>
@@ -171,13 +176,25 @@ Canções que combinam com cada momento.
 
 <h2>Contato</h2>
 
-<p>
-Obrigada por visitar meu site.
-</p>
+<form id="formulario">
+
+<input type="text" id="nome" placeholder="Seu nome">
+
+<input type="email" id="email" placeholder="Seu email">
+
+<textarea id="mensagem" placeholder="Mensagem"></textarea>
+
+<button type="submit">
+Enviar
+</button>
+
+</form>
 
 </section>
 
-
+<button id="topo">
+    ↑
+</button>
 
 
 <footer>
