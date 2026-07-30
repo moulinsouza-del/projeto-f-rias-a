@@ -307,8 +307,41 @@ footer {
 
 @media(max-width:768px){
 
+/* =========================
+   GALERIA DE IMAGENS
+========================= */
 
-.titulo {
+.galeria {
+
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+
+}
+
+
+.foto {
+
+    width: 250px;
+    height: 250px;
+
+    object-fit: cover;
+
+    border-radius: 20px;
+
+    transition: 0.4s;
+
+}
+
+
+.foto:hover {
+
+    transform: scale(1.1);
+
+}
+
+   .titulo {
 
     flex-direction:column;
 
