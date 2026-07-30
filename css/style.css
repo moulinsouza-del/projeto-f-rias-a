@@ -17,20 +17,6 @@
     src: url("../fontes/Hello Kitty.otf");
 }
 
-@font-face {
-    font-family: "JDM";
-    src: url("../fontes/JDM.ttf");
-}
-
-@font-face {
-    font-family: "PrettyGirls";
-    src: url("../fontes/Pretty Girls Script Demo.ttf");
-}
-
-@font-face {
-    font-family: "ScaryMovie";
-    src: url("../fontes/scarymoviegallery.otf");
-}
 
 
 /* =========================
@@ -44,15 +30,12 @@
 }
 
 
-html {
-    scroll-behavior: smooth;
-}
-
-
 body {
+
     background: #ffe6f2;
     color: #71585f;
     font-family: Arial, sans-serif;
+
 }
 
 
@@ -61,81 +44,103 @@ body {
    MENU
 ========================= */
 
-
 .navbar {
+
     background: #8a2be2;
-    padding: 15px;
+    padding: 20px;
+
 }
 
 
 .navbar-brand {
-    font-family: "HelloKitty";
-    font-size: 45px;
+
     color: white;
+    font-size: 35px;
+    font-weight: bold;
+
 }
 
 
 .nav-link {
+
     color: white !important;
-    font-size: 18px;
-    transition: .3s;
-}
+    font-size: 22px;
 
-
-.nav-link:hover {
-    color: #ffb6e6 !important;
 }
 
 
 
 /* =========================
-   HERO
+   TITULO
 ========================= */
 
 
 .hero {
+
     text-align: center;
     padding: 100px 20px;
+
 }
+
+
+
+.titulo {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
 
 
 .hero h1 {
 
     font-family: "CurlyShirley";
-
     font-size: 120px;
-
     color: #ff1493;
 
-    animation: aparecer 1.5s;
+}
+
+
+
+.hello {
+
+    width: 120px;
+    height: auto;
 
 }
+
 
 
 
 .hero p {
 
-    font-family: "PrettyGirls";
-
-    font-size: 40px;
-
-    margin: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    margin: 30px;
 
 }
 
 
 
-/* BOTÃO */
+
+/* =========================
+   BOTÃO
+========================= */
+
 
 .btn-pink {
 
     background: #ff1493;
-
     color: white;
 
-    border-radius: 30px;
+    padding: 18px 50px;
 
-    padding: 12px 35px;
+    font-size: 25px;
+
+    border-radius: 40px;
 
     transition: .3s;
 
@@ -146,8 +151,7 @@ body {
 .btn-pink:hover {
 
     background: #ff69b4;
-
-    color: white;
+    color:white;
 
     transform: scale(1.1);
 
@@ -162,9 +166,8 @@ body {
 
 .section {
 
-    text-align: center;
-
-    padding: 70px 20px;
+    text-align:center;
+    padding: 80px 20px;
 
 }
 
@@ -176,7 +179,7 @@ body {
 
     font-size: 90px;
 
-    color: #8a2be2;
+    color:#8a2be2;
 
 }
 
@@ -184,7 +187,7 @@ body {
 
 .section p {
 
-    font-size: 20px;
+    font-size: 24px;
 
 }
 
@@ -197,13 +200,13 @@ body {
 
 .cards {
 
-    display: flex;
+    display:flex;
 
-    justify-content: center;
+    justify-content:center;
 
-    gap: 30px;
+    gap:40px;
 
-    flex-wrap: wrap;
+    flex-wrap:wrap;
 
 }
 
@@ -211,33 +214,17 @@ body {
 
 .card-custom {
 
-    background: white;
+    background:white;
 
-    width: 250px;
+    width:300px;
 
-    padding: 30px;
+    min-height:250px;
 
-    border-radius: 25px;
+    padding:40px;
 
-    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    border-radius:30px;
 
-    transition: .4s;
-
-}
-
-
-
-.card-custom:hover {
-
-    transform: translateY(-15px);
-
-}
-
-
-
-.icon {
-
-    font-size: 50px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
 
 }
 
@@ -245,33 +232,19 @@ body {
 
 .card-custom h3 {
 
-    margin-top: 20px;
+    font-size:45px;
 
-    color: #ff1493;
+    color:#ff1493;
 
-}
-
-
-
-/* fontes diferentes nos títulos */
-
-.card-custom:nth-child(2) h3 {
-
-    font-family: "FairyTales";
+    margin-bottom:20px;
 
 }
 
 
-.card-custom:nth-child(3) h3 {
 
-    font-family: "ScaryMovie";
+.card-custom p {
 
-}
-
-
-.card-custom:nth-child(4) h3 {
-
-    font-family: "JDM";
+    font-size:20px;
 
 }
 
@@ -284,41 +257,15 @@ body {
 
 footer {
 
-    background: #8a2be2;
+    background:#8a2be2;
 
-    color: white;
+    color:white;
 
-    text-align: center;
+    text-align:center;
 
-    padding: 20px;
+    padding:25px;
 
-}
-
-
-
-/* =========================
-   ANIMAÇÕES
-========================= */
-
-
-@keyframes aparecer {
-
-    from {
-
-        opacity: 0;
-
-        transform: translateY(-40px);
-
-    }
-
-
-    to {
-
-        opacity: 1;
-
-        transform: translateY(0);
-
-    }
+    font-size:20px;
 
 }
 
@@ -332,23 +279,30 @@ footer {
 @media(max-width:768px){
 
 
+.titulo {
+
+    flex-direction:column;
+
+}
+
+
 .hero h1 {
 
-    font-size: 70px;
+    font-size:70px;
+
+}
+
+
+.hello {
+
+    width:80px;
 
 }
 
 
 .section h2 {
 
-    font-size: 60px;
-
-}
-
-
-.hero p {
-
-    font-size: 30px;
+    font-size:60px;
 
 }
 
