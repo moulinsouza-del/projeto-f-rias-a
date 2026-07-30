@@ -1,32 +1,18 @@
-// Mensagem no console para confirmar que o site carregou
 console.log("Site da Lica carregado ♡");
 
 
-// Animação das seções ao aparecerem na tela
-
-const elementos = document.querySelectorAll(".section, .card-custom");
+const cards = document.querySelectorAll(".card-custom");
 
 
-const observer = new IntersectionObserver((entradas) => {
+cards.forEach((card) => {
 
-    entradas.forEach((entrada) => {
-
-        if (entrada.isIntersecting) {
-
-            entrada.target.classList.add("mostrar");
-
-        }
-
+    card.addEventListener("mouseenter", () => {
+        card.style.transform = "translateY(-15px)";
     });
 
-});
 
-
-
-elementos.forEach((elemento) => {
-
-    elemento.classList.add("animar");
-
-    observer.observe(elemento);
+    card.addEventListener("mouseleave", () => {
+        card.style.transform = "translateY(0)";
+    });
 
 });
