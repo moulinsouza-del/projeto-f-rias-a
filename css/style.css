@@ -28,17 +28,20 @@
     src: url("../fontes/JDM.ttf");
 }
 
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
 body {
     background-color: #ffe6f2;
     font-family: "Nunito", Arial, sans-serif;
     color: #71585f;
 }
+
 
 /* MENU */
 .navbar {
@@ -47,21 +50,27 @@ body {
 
 .navbar-brand {
     color: white !important;
+    font-family: "HelloKitty";
+    font-size: 35px;
 }
+
 
 /* TITULO PRINCIPAL */
 h1 {
-    font-family: "CurlyShirley";
+    font-family: "CurlyShirley", cursive;
     font-size: 120px;
     color: #ff1493;
     text-align: center;
     margin-top: 40px;
 }
 
-header p {
+
+section p {
     text-align: center;
     font-size: 22px;
 }
+
+
 
 /* BOTAO */
 .btn-primary {
@@ -73,18 +82,23 @@ header p {
     background-color: #c71585;
 }
 
+
+
 /* SEÇÕES */
 section {
     padding: 60px 20px;
 }
 
+
 h2 {
-    font-family: "PrettyGirls";
+    font-family: "PrettyGirls", cursive;
     font-size: 80px;
     color: #800080;
     text-align: center;
     margin-bottom: 30px;
 }
+
+
 
 /* CARDS */
 .card {
@@ -96,42 +110,57 @@ h2 {
     box-shadow: 0px 5px 15px #0002;
 }
 
-.card h3 {
+
+.card h5 {
     color: #ff1493;
     text-align: center;
+    font-size: 35px;
 }
+
 
 .card p {
     text-align: center;
 }
 
-/* FONTES PERSONALIZADAS */
 
-#livros h3 {
+/* ÍCONES DOS CARDS */
+
+.icone-card {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.livros {
     font-family: "FairyTales";
-    font-size: 45px;
 }
 
-#filmes h3 {
+
+.filmes {
     font-family: "ScaryMovie";
-    font-size: 45px;
 }
 
-#musicas h3 {
+
+.musicas {
     font-family: "JDM";
-    font-size: 45px;
 }
 
-/* ORGANIZAÇÃO DOS CARDS */
+
+
+/* CARDS LADO A LADO */
 .row {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
-.col-md-3 {
-    flex: 1;
+
+.col-md-4 {
+    flex: 0 0 30%;
 }
+
+
 
 /* SOBRE */
 #sobre p {
@@ -139,9 +168,11 @@ h2 {
     font-size: 20px;
 }
 
+
+
 /* FOOTER */
 footer {
-    background-color: #800080;
+    background-color: #800080 !important;
     color: white;
     text-align: center;
     padding: 20px;
