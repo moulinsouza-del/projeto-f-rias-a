@@ -83,7 +83,7 @@ body {
 
 .hero {
     text-align: center;
-    padding: 100px 20px;
+    padding: 50px 20px;
 }
 
 
@@ -115,11 +115,9 @@ body {
 
 
 .hero p {
-
     color: #c2185b;
     font-size: 25px;
-    margin: 30px;
-
+    margin: 15px;
 }
 
 
@@ -141,10 +139,11 @@ body {
 
     border-radius: 40px;
 
+    margin-top: 10px;
+
     transition: .3s;
 
 }
-
 
 .btn-pink:hover {
 
@@ -161,14 +160,10 @@ body {
    SEÇÕES
 ========================= */
 
-
 .section {
-
     text-align: center;
-    padding: 80px 20px;
-
+    padding: 35px 20px;
 }
-
 
 
 .section h2 {
