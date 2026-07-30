@@ -51,7 +51,6 @@ body {
 }
 
 
-
 /* =========================
    CABEÇALHO
 ========================= */
@@ -66,20 +65,19 @@ body {
     color: white !important;
     font-family: "CurlyShirley";
     font-size: 30px;
+    line-height: 1;
 }
 
 
 .nav-link {
     color: white !important;
-    font-size: 20px;
+    font-size: 18px;
 }
-
 
 
 /* =========================
    TITULO PRINCIPAL
 ========================= */
-
 
 .hero {
     text-align: center;
@@ -96,7 +94,6 @@ body {
 }
 
 
-
 .hero h1 {
     font-family: "CurlyShirley";
     color: #ff1493;
@@ -104,15 +101,11 @@ body {
 }
 
 
-
 .hello {
-
     font-family: "HelloKitty";
     font-size: 70px;
     color: #ff1493;
-
 }
-
 
 
 .hero p {
@@ -122,12 +115,9 @@ body {
 }
 
 
-
-
 /* =========================
    BOTÃO
 ========================= */
-
 
 .btn-pink {
 
@@ -146,6 +136,7 @@ body {
 
 }
 
+
 .btn-pink:hover {
 
     background: #ff69b4;
@@ -154,7 +145,6 @@ body {
     transform: scale(1.1);
 
 }
-
 
 
 /* =========================
@@ -176,14 +166,12 @@ body {
 }
 
 
-
 .section p {
 
     color: #c2185b;
     font-size: 22px;
 
 }
-
 
 
 /* =========================
@@ -197,7 +185,6 @@ body {
     flex-wrap:wrap;
     margin-top:80px;
 }
-
 
 
 .card-custom {
@@ -217,14 +204,14 @@ body {
 }
 
 
-
 .card-custom:hover {
 
     transform:translateY(-15px);
 
 }
-
-
+/* =========================
+   CONTINUAÇÃO CARDS
+========================= */
 
 .card-custom h3 {
 
@@ -237,7 +224,6 @@ body {
 }
 
 
-
 .card-custom p {
 
     color:#c2185b;
@@ -245,7 +231,6 @@ body {
     font-size:20px;
 
 }
-
 
 
 /* desenhos dos cards */
@@ -257,7 +242,6 @@ body {
     margin-bottom:20px;
 
 }
-
 
 
 .livros {
@@ -281,7 +265,6 @@ body {
 }
 
 
-
 /* =========================
    FOOTER
 ========================= */
@@ -302,7 +285,6 @@ footer {
 }
 
 
-
 /* =========================
    CELULAR
 ========================= */
@@ -310,9 +292,6 @@ footer {
 
 @media(max-width:768px){
 
-/* =========================
-   GALERIA
-========================= */
 
 .galeria {
 
@@ -350,7 +329,6 @@ footer {
 }
 
 
-
 .imagem-card img {
 
     width:100%;
@@ -362,7 +340,8 @@ footer {
 
 }
 
-   .titulo {
+
+.titulo {
 
     flex-direction:column;
 
@@ -377,5 +356,24 @@ footer {
 
 
 .section h2 {
-    font-size: 60px;
+
+    font-size:60px;
+
+}
+
+
+.navbar-brand {
+
+    font-size:30px;
+
+}
+
+
+.nav-link {
+
+    font-size:16px;
+
+}
+
+
 }
