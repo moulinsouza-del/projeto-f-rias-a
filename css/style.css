@@ -105,8 +105,9 @@ body {
 
 
 .hello {
-    width: 120px;
-    height: auto;
+    font-family: "HelloKitty";
+    font-size: 80px;
+    color: #ff1493;
 }
 
 
