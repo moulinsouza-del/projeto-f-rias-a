@@ -44,13 +44,17 @@
 }
 
 
-body {
+html {
+    scroll-behavior: smooth;
+}
 
+
+body {
     background: #ffe6f2;
     color: #71585f;
     font-family: Arial, sans-serif;
-
 }
+
 
 
 /* =========================
@@ -59,35 +63,27 @@ body {
 
 
 .navbar {
-
     background: #8a2be2;
     padding: 15px;
-
 }
 
 
 .navbar-brand {
-
     font-family: "HelloKitty";
     font-size: 45px;
     color: white;
-
 }
 
 
 .nav-link {
-
     color: white !important;
     font-size: 18px;
     transition: .3s;
-
 }
 
 
 .nav-link:hover {
-
     color: #ffb6e6 !important;
-
 }
 
 
@@ -98,17 +94,17 @@ body {
 
 
 .hero {
-
     text-align: center;
     padding: 100px 20px;
-
 }
 
 
 .hero h1 {
 
     font-family: "CurlyShirley";
+
     font-size: 120px;
+
     color: #ff1493;
 
     animation: aparecer 1.5s;
@@ -116,19 +112,27 @@ body {
 }
 
 
+
 .hero p {
 
     font-family: "PrettyGirls";
+
     font-size: 40px;
+
+    margin: 20px;
 
 }
 
 
 
+/* BOTÃO */
+
 .btn-pink {
 
     background: #ff1493;
+
     color: white;
+
     border-radius: 30px;
 
     padding: 12px 35px;
@@ -138,9 +142,13 @@ body {
 }
 
 
+
 .btn-pink:hover {
 
     background: #ff69b4;
+
+    color: white;
+
     transform: scale(1.1);
 
 }
@@ -155,15 +163,19 @@ body {
 .section {
 
     text-align: center;
+
     padding: 70px 20px;
 
 }
 
 
+
 .section h2 {
 
     font-family: "FairyTales";
+
     font-size: 90px;
+
     color: #8a2be2;
 
 }
@@ -186,7 +198,9 @@ body {
 .cards {
 
     display: flex;
+
     justify-content: center;
+
     gap: 30px;
 
     flex-wrap: wrap;
@@ -238,12 +252,14 @@ body {
 }
 
 
+
+/* fontes diferentes nos títulos */
+
 .card-custom:nth-child(2) h3 {
 
     font-family: "FairyTales";
 
 }
-
 
 
 .card-custom:nth-child(3) h3 {
@@ -253,13 +269,11 @@ body {
 }
 
 
-
 .card-custom:nth-child(4) h3 {
 
     font-family: "JDM";
 
 }
-
 
 
 
@@ -272,20 +286,18 @@ footer {
 
     background: #8a2be2;
 
-    color:white;
+    color: white;
 
-    text-align:center;
+    text-align: center;
 
-    padding:20px;
-
-    font-size:18px;
+    padding: 20px;
 
 }
 
 
 
 /* =========================
-   ANIMAÇÃO
+   ANIMAÇÕES
 ========================= */
 
 
@@ -293,7 +305,8 @@ footer {
 
     from {
 
-        opacity:0;
+        opacity: 0;
+
         transform: translateY(-40px);
 
     }
@@ -301,7 +314,8 @@ footer {
 
     to {
 
-        opacity:1;
+        opacity: 1;
+
         transform: translateY(0);
 
     }
@@ -320,14 +334,21 @@ footer {
 
 .hero h1 {
 
-    font-size:70px;
+    font-size: 70px;
 
 }
 
 
 .section h2 {
 
-    font-size:60px;
+    font-size: 60px;
+
+}
+
+
+.hero p {
+
+    font-size: 30px;
 
 }
 
