@@ -1,16 +1,10 @@
+/* =========================
+   FONTES
+========================= */
+
 @font-face {
     font-family: "CurlyShirley";
     src: url("../fontes/Curly Shirley.ttf");
-}
-
-@font-face {
-    font-family: "PrettyGirls";
-    src: url("../fontes/Pretty Girls Script Demo.ttf");
-}
-
-@font-face {
-    font-family: "HelloKitty";
-    src: url("../fontes/Hello Kitty.otf");
 }
 
 @font-face {
@@ -19,8 +13,8 @@
 }
 
 @font-face {
-    font-family: "ScaryMovie";
-    src: url("../fontes/scarymoviegallery.otf");
+    font-family: "HelloKitty";
+    src: url("../fontes/Hello Kitty.otf");
 }
 
 @font-face {
@@ -28,6 +22,20 @@
     src: url("../fontes/JDM.ttf");
 }
 
+@font-face {
+    font-family: "PrettyGirls";
+    src: url("../fontes/Pretty Girls Script Demo.ttf");
+}
+
+@font-face {
+    font-family: "ScaryMovie";
+    src: url("../fontes/scarymoviegallery.otf");
+}
+
+
+/* =========================
+   GERAL
+========================= */
 
 * {
     margin: 0;
@@ -37,143 +45,291 @@
 
 
 body {
-    background-color: #ffe6f2;
+
+    background: #ffe6f2;
     color: #71585f;
     font-family: Arial, sans-serif;
+
 }
 
 
-/* MENU */
+/* =========================
+   MENU
+========================= */
+
 
 .navbar {
-    background-color: #800080 !important;
+
+    background: #8a2be2;
+    padding: 15px;
+
 }
 
 
-.logo {
+.navbar-brand {
+
     font-family: "HelloKitty";
-    font-size: 35px;
+    font-size: 45px;
+    color: white;
+
+}
+
+
+.nav-link {
+
     color: white !important;
+    font-size: 18px;
+    transition: .3s;
+
+}
+
+
+.nav-link:hover {
+
+    color: #ffb6e6 !important;
+
 }
 
 
 
-/* TITULO */
+/* =========================
+   HERO
+========================= */
 
-h1 {
+
+.hero {
+
+    text-align: center;
+    padding: 100px 20px;
+
+}
+
+
+.hero h1 {
+
     font-family: "CurlyShirley";
     font-size: 120px;
     color: #ff1493;
-    margin-top: 40px;
+
+    animation: aparecer 1.5s;
+
 }
 
 
-section p {
-    font-size: 20px;
-}
+.hero p {
 
-
-
-/* BOTÃO */
-
-.btn-primary {
-    background-color: #ff1493;
-    border: none;
-}
-
-
-.btn-primary:hover {
-    background-color: #800080;
-}
-
-
-
-/* TITULOS */
-
-h2 {
     font-family: "PrettyGirls";
-    font-size: 80px;
-    color: #800080;
+    font-size: 40px;
+
 }
 
 
 
-/* CARDS */
+.btn-pink {
 
-.card {
-    background-color: white;
-    border-radius: 25px;
-    border: none;
-    padding: 25px;
-    transition: 0.4s;
-    box-shadow: 0 5px 15px #0003;
+    background: #ff1493;
+    color: white;
+    border-radius: 30px;
+
+    padding: 12px 35px;
+
+    transition: .3s;
+
 }
 
 
-.card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 10px 25px #80008055;
+.btn-pink:hover {
+
+    background: #ff69b4;
+    transform: scale(1.1);
+
 }
 
 
-.icone-card {
-    font-size: 50px;
+
+/* =========================
+   SEÇÕES
+========================= */
+
+
+.section {
+
     text-align: center;
-    margin-bottom: 20px;
-    color: #ff1493;
+    padding: 70px 20px;
+
 }
 
 
-.livros {
+.section h2 {
+
     font-family: "FairyTales";
-}
+    font-size: 90px;
+    color: #8a2be2;
 
-
-.filmes {
-    font-family: "ScaryMovie";
-}
-
-
-.musicas {
-    font-family: "JDM";
-}
-
-
-.card-title {
-    color: #ff1493;
-    text-align: center;
-}
-
-
-.card-text {
-    text-align: center;
 }
 
 
 
-/* ORGANIZAÇÃO */
+.section p {
 
-.row {
+    font-size: 20px;
+
+}
+
+
+
+/* =========================
+   CARDS
+========================= */
+
+
+.cards {
+
+    display: flex;
     justify-content: center;
+    gap: 30px;
+
+    flex-wrap: wrap;
+
 }
 
 
 
-/* GALERIA */
+.card-custom {
 
-img {
-    transition: 0.4s;
+    background: white;
+
+    width: 250px;
+
+    padding: 30px;
+
+    border-radius: 25px;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+
+    transition: .4s;
+
 }
 
 
-img:hover {
-    transform: scale(1.05);
+
+.card-custom:hover {
+
+    transform: translateY(-15px);
+
 }
 
 
 
-/* FOOTER */
+.icon {
+
+    font-size: 50px;
+
+}
+
+
+
+.card-custom h3 {
+
+    margin-top: 20px;
+
+    color: #ff1493;
+
+}
+
+
+.card-custom:nth-child(2) h3 {
+
+    font-family: "FairyTales";
+
+}
+
+
+
+.card-custom:nth-child(3) h3 {
+
+    font-family: "ScaryMovie";
+
+}
+
+
+
+.card-custom:nth-child(4) h3 {
+
+    font-family: "JDM";
+
+}
+
+
+
+
+/* =========================
+   FOOTER
+========================= */
+
 
 footer {
-    background-color: #800080 !important;
+
+    background: #8a2be2;
+
+    color:white;
+
+    text-align:center;
+
+    padding:20px;
+
+    font-size:18px;
+
+}
+
+
+
+/* =========================
+   ANIMAÇÃO
+========================= */
+
+
+@keyframes aparecer {
+
+    from {
+
+        opacity:0;
+        transform: translateY(-40px);
+
+    }
+
+
+    to {
+
+        opacity:1;
+        transform: translateY(0);
+
+    }
+
+}
+
+
+
+/* =========================
+   CELULAR
+========================= */
+
+
+@media(max-width:768px){
+
+
+.hero h1 {
+
+    font-size:70px;
+
+}
+
+
+.section h2 {
+
+    font-size:60px;
+
+}
+
+
 }
