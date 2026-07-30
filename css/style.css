@@ -65,7 +65,7 @@ body {
 .navbar-brand {
     color: white !important;
     font-family: "CurlyShirley";
-    font-size: 55px;
+    font-size: 30px;
 }
 
 
@@ -378,22 +378,4 @@ footer {
 
 .section h2 {
     font-size: 60px;
-}
-
-.navbar {
-    background: #8a2be2 !important;
-    padding: 5px 20px !important;
-    min-height: 50px;
-}
-
-.navbar-brand {
-    font-family: "CurlyShirley" !important;
-    font-size: 30px !important;
-    line-height: 1 !important;
-}
-
-.navbar-nav .nav-link {
-    font-size: 16px;
-    padding-top: 5px;
-    padding-bottom: 5px;
 }
